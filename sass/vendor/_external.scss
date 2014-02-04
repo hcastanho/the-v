@@ -1,0 +1,23 @@
+::selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-moz-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-webkit-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+
+.sharethis {
+	padding: 10px 0;
+	.stButton .stMainServices,
+	.stButton .stButton_gradient {
+		height: 22px !important;
+	}
+}

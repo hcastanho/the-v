@@ -1,0 +1,71 @@
+#header {
+	
+	.row {position: relative;}
+
+	.logo {
+		@include span-columns(3, 12);
+		position: relative;
+		top: 2.5em;
+		a {
+			@include textOffscreen;
+			display: block;
+			width: 220px;
+			height: 210px;
+			background: transparent url('../assets/img/logo-thevoicept.png') top left no-repeat;
+		}
+	} // .logo
+
+	.mentor {
+		@include span-columns(7, 12);
+		.photos {
+			overflow: hidden;
+			height: 210px;
+			li {float: left;}
+		}
+	} // .mentor
+
+	.partner {
+		@include span-columns(2 omega, 12);
+		position: absolute;
+		bottom: 1em;
+		right: 0;
+	} // .partner
+
+} // #header
+
+
+#live-now {
+	background-color: #D90000;
+	margin-bottom: 0px;
+
+	.bar {
+		li:first-child {
+			@include span-columns(8, 12);
+		}
+		li:last-child {
+			@include span-columns(4 omega, 12);
+			a {
+				margin-top: 1em;
+				display: block;
+				float: right;
+				padding: 0.6em 1.5em 0.6em;
+				background-color: #000;
+				@include border-radius(0.4em);
+			}
+			.fa-caret-square-o-right {
+				position: relative;
+				right: 10px;
+				top:0.1em;
+				font-size: 1.3em;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+

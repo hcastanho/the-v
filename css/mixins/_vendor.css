@@ -1,0 +1,78 @@
+/* line 1, ../../sass/mixins/_vendor.scss */
+::selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 6, ../../sass/mixins/_vendor.scss */
+::-moz-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 11, ../../sass/mixins/_vendor.scss */
+::-webkit-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 17, ../../sass/mixins/_vendor.scss */
+.sharethis {
+  padding: 10px 0; }
+  /* line 20, ../../sass/mixins/_vendor.scss */
+  .sharethis .stButton .stMainServices,
+  .sharethis .stButton .stButton_gradient {
+    height: 22px !important; }
+
+/* Basic jQuery Slider essential styles */
+/* line 26, ../../sass/mixins/_vendor.scss */
+#stories ul.bjqs {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: none; }
+
+/* line 27, ../../sass/mixins/_vendor.scss */
+#stories li.bjqs-slide {
+  position: absolute;
+  display: none; }
+
+/* line 28, ../../sass/mixins/_vendor.scss */
+#stories ul.bjqs-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 9999; }
+
+/* line 29, ../../sass/mixins/_vendor.scss */
+#stories ul.bjqs-controls.v-centered li a {
+  position: absolute; }
+
+/* line 30, ../../sass/mixins/_vendor.scss */
+#stories ul.bjqs-controls.v-centered li.bjqs-next a {
+  right: 0; }
+
+/* line 31, ../../sass/mixins/_vendor.scss */
+#stories ul.bjqs-controls.v-centered li.bjqs-prev a {
+  left: 0; }
+
+/* line 32, ../../sass/mixins/_vendor.scss */
+#stories ol.bjqs-markers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+/* line 33, ../../sass/mixins/_vendor.scss */
+#stories ol.bjqs-markers.h-centered {
+  text-align: center; }
+
+/* line 34, ../../sass/mixins/_vendor.scss */
+#stories ol.bjqs-markers li {
+  display: inline; }
+
+/* line 35, ../../sass/mixins/_vendor.scss */
+#stories ol.bjqs-markers li a {
+  display: inline-block; }

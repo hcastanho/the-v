@@ -1,0 +1,147 @@
+#pre-footer {
+	overflow: hidden;
+	margin-bottom: $spacer;
+
+	section.hosts {
+		@include span-columns(6, 12);
+		
+		ul li {
+			@include span-columns(3, 6);
+			&:nth-child(2n) {margin-right: 0;}
+			margin-bottom: $spacer;
+		}
+	
+	}
+
+	section.reporters {
+		@include span-columns(4, 12);
+		ul li a {
+			display: block;
+			overflow: hidden;
+			img {@include span-columns(2, 4);}
+			h3 {@include span-columns(2 omega, 4);}
+			margin-bottom: $spacer / 2;
+		}
+	}
+
+	section.powered-by {
+		@include span-columns(2 omega, 12);
+		li a {
+			display: block;
+			margin-bottom: $spacer ;
+		}
+	}
+
+}
+
+#rtpplay-footer {
+	overflow: hidden;
+
+	.row {padding: 10px;}
+
+	section.rtpplay {		
+		ul li {
+			@include span-columns(3, 12);
+			&:nth-child(4n) {margin-right: 0;}
+			margin-bottom: $spacer;
+		}
+	
+	}
+
+}
+
+#footer {
+	background-color: #111;
+	margin-top: 10em;
+
+	.row {position: relative;}
+
+	h1 {
+		a {
+			display: block;
+			width: 140px;
+			height: 130px;
+			background: transparent url('../assets/img/logo-thevoicept-small.png') left top no-repeat;
+			position: absolute;
+			bottom: -1em;
+			left: 0;
+		}
+	}
+
+	.menu {
+		@include span-columns(9, 12);
+		@include pad(3,1);
+		padding-top: 1em;
+
+		li {
+			margin-bottom: $spacer / 4;			
+			a {display: block;}
+			@include span-columns(2, 6);
+			&:nth-child(3n) {margin-right: 0;}
+		}
+	}
+
+	.social {
+		@include span-columns(3 omega, 12);
+		span { @include textOffscreen; }
+		text-align: right;
+		margin-top: 1.8em;
+
+		li {
+			@include inline-block;
+			margin-right: 0.2em;
+			font-size: 2em;
+
+		}
+	}
+
+
+}
+
+
+
+
+#footest {
+	margin-bottom: 0;
+	margin-top: 5em;
+	.row > div { 
+		@include span-columns(7 omega,12); 
+		text-align: right;
+		color: #FFF;
+		margin-top: 1.2em;
+	}
+	span { @include textOffscreen; }
+
+	ul {
+		li.rtp { 
+			@include span-columns(2,12); 
+			a {
+				display: block;
+				width: 130px;
+				height: 50px;
+				background: transparent url('../assets/img/logo-rtp-small.png') left top no-repeat;
+			}
+		}
+		li.talpa {  
+			@include span-columns(1,12); 
+			a {
+				display: block;
+				width: 50px;
+				height: 60px;
+				background: transparent url('../assets/img/logo-talpa.png') left top no-repeat;
+			}
+		}
+		li.shine {  
+			@include span-columns(2,12); 
+			a {
+				display: block;
+				width: 140px;
+				height: 40px;
+				background: transparent url('../assets/img/logo-shine.png') left top no-repeat;
+			}
+		}
+	}
+}
+
+
+

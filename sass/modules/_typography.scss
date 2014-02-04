@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'din';
+	src: url('http://media.rtp.pt/fonts/dinengschrift.eot');
+	src: url('http://media.rtp.pt/fonts/dinengschrift.eot?#iefix') format('embedded-opentype'),
+		 url('http://media.rtp.pt/fonts/dinengschrift.woff') format('woff'),
+		 url('http://media.rtp.pt/fonts/dinengschrift.ttf') format('truetype'),
+		 url('http://media.rtp.pt/fonts/dinengschrift.svg#dinengschrift') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {	
+	font-size:62.5%;
+	font-family: arial, verdana, 'sans-serif';
+}
+
+body {
+	font-size:1.2em;
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+}
+a:hover {
+	color: $link-over-color;
+	text-decoration: none;	
+}
+
+h1, h2, h3 {	
+	font-family: $default-family;
+}
+
+h1 {font-size: 2.3em;}
+h2 {font-size: 1.8em; line-height: 1.3em;}
+h3 {font-size: 1.5em; line-height: 1.2em;}
+
+#nav, #footer nav {
+	font-family: $default-family;
+	a {
+		color: #FFF;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 25px;
+		line-height: 1.2em;
+	}
+	a:hover {color: $link-color;}
+}
+
+#footer nav a {
+	font-size: 18px;
+}
+#live-now {
+	h2 {
+		font-size: 4em;
+		text-transform: uppercase;
+		line-height: 1.5em;
+		margin-top: 0.2em;
+		color: #FFF;
+	}
+	a {
+		font-family: $default-family;
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+}
+
+
+
+section > header {
+	font-family: $default-family;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 1.2em;
+	padding-top: 0.3em;
+	text-indent: 0.2em;
+}
+
+
+cite {
+	font-family: 'times-new-roman';
+
+}
+

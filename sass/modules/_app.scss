@@ -1,0 +1,39 @@
+$total-columns: 12;
+$column-width: 60px; 
+$gutter-width: 20px;
+$grid-padding: 0px;
+$container-style: static;
+
+
+.row {
+	@include container; 
+	// @include susy-grid-background;
+}
+
+// +++++++++++++++++ //\\ +++++++++++++++++  \\
+
+img { @include fluid-image; }
+
+body { background: #000 url('../assets/img/background-main.jpg') center top no-repeat; }
+
+* { box-sizing: border-box;}
+
+::selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-moz-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-webkit-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+
+
+
+

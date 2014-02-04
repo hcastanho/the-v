@@ -1,0 +1,36 @@
+::selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-moz-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+::-webkit-selection{
+  background:#333;
+  color:#fff;
+  text-shadow:none;
+}
+
+.sharethis {
+	padding: 10px 0;
+	.stButton .stMainServices,
+	.stButton .stButton_gradient {
+		height: 22px !important;
+	}
+}
+
+/* Basic jQuery Slider essential styles */
+#stories ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+#stories li.bjqs-slide{position:absolute; display:none;}
+#stories ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+#stories ul.bjqs-controls.v-centered li a{position:absolute;}
+#stories ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+#stories ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+#stories ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+#stories ol.bjqs-markers.h-centered{text-align: center;}
+#stories ol.bjqs-markers li{display:inline;}
+#stories ol.bjqs-markers li a{display:inline-block;}
+//#stories p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;} 

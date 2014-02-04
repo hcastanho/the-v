@@ -1,0 +1,17 @@
+#nav {
+	background-color: #000;
+	margin-bottom: 0;
+
+	.menu-itens {
+		@include push(2);
+		li { @include inline-block;}
+
+		a { 
+			display: block;
+			padding: 0.3em 0.5em 0.1em; 
+		}
+
+	}
+}
+
+

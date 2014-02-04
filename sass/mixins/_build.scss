@@ -1,0 +1,139 @@
+// ++++++ set fluid images
+    @mixin fluid-image {
+        width:100%;
+        height: auto;
+    }
+
+
+// ++++++ set inline block hack
+    @mixin inline-block {
+        display :inline-block;
+        zoom :1;
+        *display :inline;
+        vertical-align :top;
+        margin :0px;
+        padding :0px;
+    }
+
+
+// ++++++ help  blind people with assistive text
+    @mixin assistive {
+      .assistive {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    }
+
+
+// ++++++ set transparent background
+    @mixin transp { 
+        background: transparent url(../assets/img/transp.png) repeat left top; 
+    }
+
+
+// ++++++ set text off the screen
+    @mixin textOffscreen() {
+        text-indent: -9999px;
+        overflow: hidden;
+        text-decoration: none;
+        display: block;
+        font-size: 0;
+        text-align: start;
+    }
+
+
+// ++++++ set the logo
+    @mixin logo{
+        background: url("logo.png");
+        height:100px;
+        width:200px;
+        @include textOffscreen;
+    }
+
+
+
+// ++++++ set every border radius or just a single side without worrying about all those prefixes
+    @mixin border-radius($radius) {
+      -webkit-border-radius: $radius;
+      border-radius: $radius;
+      background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+    }
+    // set single side border-radius
+    @mixin border-top-radius($radius) {
+        -webkit-border-top-right-radius: $radius;
+        border-top-right-radius: $radius;
+        -webkit-border-top-left-radius: $radius;
+        border-top-left-radius: $radius;
+        background-clip: padding-box;
+    }
+    @mixin border-right-radius($radius) {
+        -webkit-border-bottom-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+         -webkit-border-top-right-radius: $radius;
+         border-top-right-radius: $radius;
+         background-clip: padding-box;
+    }
+    @mixin border-bottom-radius($radius) {
+        -webkit-border-bottom-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+        -webkit-border-bottom-left-radius: $radius;
+        border-bottom-left-radius: $radius;
+        background-clip: padding-box;
+    }
+    @mixin border-left-radius($radius) {
+        -webkit-border-bottom-left-radius: $radius;
+        border-bottom-left-radius: $radius;
+         -webkit-border-top-left-radius: $radius;
+         border-top-left-radius: $radius;
+         background-clip: padding-box;
+    }
+
+
+// ++++++ sets the opacity for all browsers and provide a filter fallback for IE8
+    @mixin opacity($opacity) {
+        opacity: $opacity;
+        $opacity-ie: $opacity * 100;
+        filter: alpha(opacity=$opacity-ie); //IE8
+    }
+
+
+// ++++++ center-align a block level element
+    @mixin center-block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+// ++++++ sets the font size in rem's with a px fallback
+    @mixin font-size($sizeValue: 12 ){
+      font-size: $sizeValue + px; //fallback for old browsers
+      font-size: (0.125 * $sizeValue) + rem;
+    }
+
+
+// ++++++ sets the line height in rem's with a px fallback
+    @mixin line-height($heightValue: 12 ){
+        line-height: $heightValue + px; //fallback for old browsers
+        line-height: (0.125 * $heightValue) + rem;
+    }
+
+
+
+// ++++++ flip background horizontaly
+    @mixin flip-hz {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+
+

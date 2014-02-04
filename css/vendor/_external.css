@@ -1,0 +1,25 @@
+/* line 1, ../../sass/vendor/_external.scss */
+::selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 6, ../../sass/vendor/_external.scss */
+::-moz-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 11, ../../sass/vendor/_external.scss */
+::-webkit-selection {
+  background: #333;
+  color: #fff;
+  text-shadow: none; }
+
+/* line 17, ../../sass/vendor/_external.scss */
+.sharethis {
+  padding: 10px 0; }
+  /* line 20, ../../sass/vendor/_external.scss */
+  .sharethis .stButton .stMainServices,
+  .sharethis .stButton .stButton_gradient {
+    height: 22px !important; }

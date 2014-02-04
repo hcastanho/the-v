@@ -1,0 +1,88 @@
+#videos .videos {
+	background-color: #000;
+	padding: 10px;
+}
+
+
+
+#pictures {
+	overflow: hidden;
+
+	.row {
+		background-color: #000;
+		padding: 10px;		
+	}
+
+	.latest {
+		@include span-columns(4, 12);
+	}
+	.images {
+		@include span-columns(8 omega, 12);
+	}
+
+}
+
+
+
+#reporter {
+	overflow: hidden;
+
+	.row {
+		background-color: #000;
+		padding: 10px;		
+	}
+
+	.reporter {
+		@include span-columns(8, 12);
+	}
+
+	.a3 {
+		@include span-columns(4 omega, 12);
+	}
+
+}
+
+
+#mentors {
+	.row {
+		background-color: #000;
+		padding: 10px;
+	}
+}
+
+
+
+#pre-footer {
+	.row {
+		background-color: #000;
+		padding: 10px;
+	}
+}
+
+
+
+#team-mentor {
+	@include span-columns(8, 12);
+	background: transparent url('') left top no-repeat;
+
+	article {
+		background: transparent url('../assets/img/mentor-bg.png') right bottom no-repeat;
+		min-height: 450px;
+		padding-right: 320px;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
