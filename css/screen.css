@@ -755,7 +755,7 @@ h1, h2, h3 {
 
 /* line 34, ../sass/modules/_typography.scss */
 h1 {
-  font-size: 2.3em; }
+  font-size: 2.5em; }
 
 /* line 35, ../sass/modules/_typography.scss */
 h2 {
@@ -809,7 +809,11 @@ section > header {
 
 /* line 80, ../sass/modules/_typography.scss */
 cite {
-  font-family: 'times-new-roman'; }
+  font-family: "Times New Roman",Georgia,Serif;
+  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-style: italic; }
 
 /* line 1, ../sass/modules/_blocks.scss */
 #videos .videos {
@@ -874,12 +878,47 @@ cite {
   float: left;
   margin-right: 1.69492%;
   display: inline;
-  background: transparent url("") left top no-repeat; }
-  /* line 68, ../sass/modules/_blocks.scss */
+  background: transparent url("../assets/img/transp.png") left top repeat;
+  padding: 10px 0px 0px 10px; }
+  /* line 69, ../sass/modules/_blocks.scss */
   #team-mentor article {
     background: transparent url("../assets/img/mentor-bg.png") right bottom no-repeat;
     min-height: 450px;
     padding-right: 320px; }
+  /* line 75, ../sass/modules/_blocks.scss */
+  #team-mentor h1 {
+    color: #FFF; }
+  /* line 76, ../sass/modules/_blocks.scss */
+  #team-mentor p {
+    color: #FFF;
+    line-height: 1.5em;
+    margin-bottom: 10px; }
+  /* line 82, ../sass/modules/_blocks.scss */
+  #team-mentor cite {
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0 0.8em;
+    display: block;
+    border-top: 2px solid #AD2300;
+    border-bottom: 2px solid #AD2300;
+    color: #FFF; }
+
+/* line 93, ../sass/modules/_blocks.scss */
+a.button {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  font-weight: bold;
+  background-color: #D90000;
+  padding: 1em 2.2em 1em;
+  font-size: 1.2em;
+  margin-top: 10px; }
 
 /* line 8, ../sass/modules/_app.scss */
 .row {

@@ -31,7 +31,7 @@ h1, h2, h3 {
 	font-family: $default-family;
 }
 
-h1 {font-size: 2.3em;}
+h1 {font-size: 2.5em;}
 h2 {font-size: 1.8em; line-height: 1.3em;}
 h3 {font-size: 1.5em; line-height: 1.2em;}
 
@@ -78,7 +78,10 @@ section > header {
 
 
 cite {
-	font-family: 'times-new-roman';
-
+	font-family: "Times New Roman",Georgia,Serif;
+	font-weight: normal;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	font-style: italic;
 }
 

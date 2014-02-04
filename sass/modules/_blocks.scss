@@ -63,7 +63,8 @@
 
 #team-mentor {
 	@include span-columns(8, 12);
-	background: transparent url('') left top no-repeat;
+	background: transparent url('../assets/img/transp.png') left top repeat;
+	padding: 10px 0px 0px 10px;
 
 	article {
 		background: transparent url('../assets/img/mentor-bg.png') right bottom no-repeat;
@@ -71,8 +72,36 @@
 		padding-right: 320px;
 	}
 
+	h1 {color: #FFF;}
+	p {
+		color: #FFF;
+		line-height: 1.5em;
+		margin-bottom: 10px;
+	}
+
+	cite {
+		padding: 0.5em 0.5em;
+		margin: 0.5em 0 0.8em;
+		display: block;
+		border-top: 2px solid #AD2300;
+		border-bottom: 2px solid #AD2300;
+		color: #FFF;
+	}
 	
 }
+
+a.button {
+	@include inline-block;
+	@include border-radius(0.4em);	
+	font-weight: bold;
+	background-color: #D90000;
+	padding: 1em 2.2em 1em;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+
+
 
 
 
