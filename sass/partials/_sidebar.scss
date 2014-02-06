@@ -1,11 +1,24 @@
+@mixin section-pad {
+	margin-bottom: $spacer * 2; 
+	section {
+		padding: $spacer /2;
+		background: transparent url('../assets/img/transp.png') repeat;
+	}	
+}
+
 #latest-articles {
-	margin: $spacer * 2 0; 
+	@include section-pad;
+	margin-top: $spacer * 2; 
 }
 
 #reporters-v {
-	margin-bottom: $spacer * 2; 
+	@include section-pad;
 }
 
 #antena3 {
-	margin-bottom: $spacer * 2; 
+	@include section-pad;
+}
+
+#team-members {
+	@include section-pad;
 }

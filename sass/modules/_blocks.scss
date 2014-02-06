@@ -116,9 +116,50 @@ a.button {
 	.content {	@include span-columns(5 omega, 8); }
 }
 
+#archive {
+	&.no-header header {
+		padding: 0;
+		margin: 0;
+		text-indent: 0;
+		background-color: transparent;
+		margin-bottom: $spacer * 2;			
+	}
 
+	&.no-header ul li {
+		overflow: hidden;
+		margin-bottom: $spacer;	
+		img {@include span-columns(3, 8);}
+	}
 
+	&.photo {
+		overflow: hidden;
+		ul li {
+			@include span-columns(3, 9);
+			&:nth-child(3n) {margin-right: 0;}
+			margin-bottom: $spacer;	
+		}
+	}
+}
 
+.pagination {
+	margin: 3em 0 5em;
+	text-align: center;
+	li {
+		@include inline-block;
+		a {
+			display: block;
+			padding: 0.4em 0.6em;
+			margin-right: 0.2em;
+			border: 1px solid #4C0200;
+			background-color: #4C0200;
+			font-size: 1.5em;
+		}
+		&.on a, a:hover {
+			background-color: #ff9226;
+			color: #FFF;
+		}
+	}
+}
 
 
 
