@@ -101,6 +101,22 @@ a.button {
 }
 
 
+#profile-story {
+	margin-bottom: $spacer * 2;	
+}
+
+#profile-galerias {
+	margin-bottom: $spacer * 2;	
+}
+
+#profile-mentor {
+	margin-bottom: $spacer * 2;	
+	overflow: hidden;
+	img {	@include span-columns(3, 8); }
+	.content {	@include span-columns(5 omega, 8); }
+}
+
+
 
 
 

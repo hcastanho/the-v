@@ -48,7 +48,7 @@ body > div {
 .listing-4 {
 	li {
 		@include inline-block;
-		width: 24%;
+		width: 23.8%;
 		margin-right: 1%;
 		margin-bottom: 2.5%;
 		
@@ -58,6 +58,18 @@ body > div {
 	}
 }
 
+.listing-7 {
+	li {
+		@include inline-block;
+		width: 13.13%;
+		margin-right: 1%;
+		margin-bottom: 2.5%;
+		
+		&:nth-child(7n) {
+			margin-right: 0;
+		}
+	}
+}
 
 .vertical-2 {
 	li,	a {

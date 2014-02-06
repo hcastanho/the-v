@@ -89,4 +89,30 @@
 
 
 
+	.primary {
+		@include span-columns(8,12);
+		background: transparent url('../assets/img/transp.png') left top repeat;
+		padding: 10px;
+		h1 {
+			margin-top: 15px;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+	}
+
+
+
 } // #top-stories
+
+
+
+
+
+
+
+
+
+
+
+

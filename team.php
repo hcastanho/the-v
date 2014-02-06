@@ -7,11 +7,7 @@
 				<section id="team-mentor">
 					<article>
 						<h1>Mentor e Equipa</h1>
-						<div class="sharethis">
-							<span class='st_facebook'></span>
-							<span class='st_twitter'></span>
-							<span class='st_instagram'></span>
-						</div>
+						<?php require_once("template_parts/share-this.php"); ?>
 						<cite>
 							“Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas“							
 						</cite>
@@ -23,20 +19,7 @@
 					</article>
 				</section>
 				<aside>
-					<div class="social">
-						<h1>#thevoiceportugal</h1>
-						<ul class="links">
-						    <li><a href="#" class="fa fa-facebook-square"><span>Facebook</span></a></li>
-						    <li><a href="#" class="fa fa-twitter-square"><span>Twitter</span></a></li>
-						    <li><a href="#" class="fa fa-google-plus-square"><span>Google +</span></a></li>
-						    <li><a href="#" class="fa fa-youtube-square"><span>Youtube</span></a></li>
-						    <li><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
-						    <li><a href="#" class="fa fa-tumblr-square"><span>Thumblr</span></a></li>
-						</ul>
-					</div>
-					<div class="pub">
-						<img src="assets/img/mrec.jpg" alt="PUB">
-					</div>
+					<?php require_once("template_parts/aside-first.php"); ?>
 				</aside>
 			</div><!-- .row -->
 		</div><!-- #top-stories + + + + + + + + + + + + + + + + + + -->
@@ -50,43 +33,61 @@
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 						<li>
 							<a href="">
 								<img src="assets/img/placeholder.jpg" alt="">
-								<h2>Automatically generated caption</h2>
+								<h3>Automatically generated caption</h3>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="assets/img/placeholder.jpg" alt="">
+								<h3>Automatically generated caption</h3>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="assets/img/placeholder.jpg" alt="">
+								<h3>Automatically generated caption</h3>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="assets/img/placeholder.jpg" alt="">
+								<h3>Automatically generated caption</h3>
 							</a>
 						</li>
 					</ul>
