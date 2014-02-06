@@ -1078,6 +1078,20 @@ a.button {
       background-color: #ff9226;
       color: #FFF; }
 
+/* line 164, ../sass/modules/_blocks.scss */
+#related-articles {
+  margin-top: 60px; }
+  /* line 166, ../sass/modules/_blocks.scss */
+  #related-articles ul li {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    /* line 169, ../sass/modules/_blocks.scss */
+    #related-articles ul li img {
+      width: 35.89744%;
+      float: left;
+      margin-right: 2.5641%;
+      display: inline; }
+
 /* line 8, ../sass/modules/_app.scss */
 .row {
   *zoom: 1;

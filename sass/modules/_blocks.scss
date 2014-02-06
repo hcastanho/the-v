@@ -161,7 +161,14 @@ a.button {
 	}
 }
 
-
+#related-articles {
+	margin-top: $spacer * 3;		
+	ul li {
+		overflow: hidden;
+		margin-bottom: $spacer;			
+		img { @include span-columns(3, 8); }
+	}
+}
 
 
 
