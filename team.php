@@ -17,10 +17,12 @@
 						</div>
 						<a href="" class="button">Lê o perfil completo »</a>
 					</article>
-				</section>
+				</section><!-- .team-mentor -->
+
 				<aside>
 					<?php require_once("template_parts/aside-first.php"); ?>
 				</aside>
+
 			</div><!-- .row -->
 		</div><!-- #top-stories + + + + + + + + + + + + + + + + + + -->
 		
@@ -93,7 +95,7 @@
 					</ul>
 				</section>
 			</div><!-- .row -->
-		</div><!-- #team + + + + + + + + + + + + + + + + + + -->
+		</div><!-- #team-members + + + + + + + + + + + + + + + + + + -->
 
 
 		<div id="team-videos">

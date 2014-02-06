@@ -46,7 +46,7 @@
 								<p>Praesent elementum cursus elit, ut consequat enim pulvinar eget. Sed id nunc sodales, iaculis nisi in, venenatis est. Vestibulum consectetur est dapibus, tempus ante non, ultricies nulla.</p>
 							</li>
 						</ul>
-					</section><!-- #profile-mentor -->							
+					</section><!-- #related-articles -->							
 
 				</div><!-- .primary -->
 

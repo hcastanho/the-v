@@ -173,7 +173,7 @@
 								</a>
 							</li>	
 						</ul>
-					</section><!-- #profile-mentor -->
+					</section><!-- #archive.photo -->
 
 
 					<ul class="pagination">
